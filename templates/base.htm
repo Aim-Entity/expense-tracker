@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,10 +7,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   {% block head %}
   <title>Change Base Header</title>
+  {% endblock %}
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,500&display=swap"
     rel="stylesheet">
-  {% endblock %}
+
+  <link rel="stylesheet" href="{% static 'home/base/style.css' %}">
+  <script src="{% static 'home/base/app.js' %}"></script>
 </head>
 
 <body>
