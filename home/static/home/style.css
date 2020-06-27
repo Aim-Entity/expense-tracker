@@ -182,4 +182,33 @@ a {
 
     color: #ffffff;
   }
+
+  .navigation-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 25px;
+  }
+
+  .sign-up-container {
+    width: 152px;
+    height: 49px;
+
+    background: #d34e2c;
+    border-radius: 5px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .sign-in {
+    padding-right: 35px;
+  }
+
+  .nav-a {
+    color: #fff;
+    font-size: 36px;
+    line-height: 27px;
+  }
 }
