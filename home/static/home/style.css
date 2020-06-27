@@ -36,3 +36,57 @@ a {
 } */
 
 /* MAKE MOBILE VIEW FIRST  */
+
+.top-hero {
+  display: none;
+}
+
+.top-mobile-hero {
+  position: absolute;
+  z-index: -2;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 667px;
+}
+
+.logo {
+  width: 95px;
+  height: 95px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.sign-up-container {
+  width: 99px;
+  height: 31px;
+
+  background: #d34e2c;
+  border-radius: 5px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.sign-in {
+  padding-right: 25px;
+}
+
+.nav-a {
+  color: #fff;
+  font-size: 18px;
+  line-height: 27px;
+}
