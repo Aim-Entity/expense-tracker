@@ -14,53 +14,67 @@
   </head>
 
   <body>
-    <div class="section1">
-      <header>
-        <img
-          src="{% static 'home/imgs/home_hero.jpg' %}"
-          alt="Hero"
-          class="top-hero"
-        />
-        <img
-          src="{% static 'home/imgs/mobile_hero.jpg' %}"
-          alt="Hero"
-          class="top-mobile-hero"
-        />
+    <div class="container">
+      <div class="section1">
+        <header>
+          <img
+            src="{% static 'home/imgs/home_hero.jpg' %}"
+            alt="Hero"
+            class="top-hero"
+          />
+          <img
+            src="{% static 'home/imgs/mobile_hero.jpg' %}"
+            alt="Hero"
+            class="top-mobile-hero"
+          />
 
-        <nav>
-          <div class="navigation">
-            <a href="#"
-              ><img
-                src="{% static 'home/imgs/logo.png' %}"
-                alt="Logo"
-                class="logo"
-            /></a>
+          <nav>
+            <div class="navigation">
+              <a href="#"
+                ><img
+                  src="{% static 'home/imgs/logo.png' %}"
+                  alt="Logo"
+                  class="logo"
+              /></a>
 
-            <ul class="navigation-links">
-              <li class="nav-link">
-                <a href="#" class="nav-a sign-in">Sign In</a>
-              </li>
-
-              <div class="sign-up-container">
+              <ul class="navigation-links">
                 <li class="nav-link">
-                  <a href="#" class="nav-a sign-Up">Sign Up</a>
+                  <a href="#" class="nav-a sign-in">Sign In</a>
                 </li>
-              </div>
-            </ul>
+
+                <div class="sign-up-container">
+                  <li class="nav-link">
+                    <a href="#" class="nav-a sign-Up">Sign Up</a>
+                  </li>
+                </div>
+              </ul>
+            </div>
+          </nav>
+        </header>
+
+        <div class="section1-main-body">
+          <div class="s1-title-text-container">
+            <h1 class="s1-title-text">turpis egestas sed tempus urna</h1>
+
+            <p class="s1-text">
+              convallis aenean et tortor at risus viverra adipiscing at in
+              tellus integer feugiat scelerisque varius morbi enim
+            </p>
           </div>
-        </nav>
-      </header>
-
-      <div class="section1-main-body">
-        <div class="s1-title-text-container">
-          <h1 class="s1-title-text">turpis egestas sed tempus urna</h1>
-
-          <p class="s1-text">
-            convallis aenean et tortor at risus viverra adipiscing at in tellus
-            integer feugiat scelerisque varius morbi enim
-          </p>
+          <button class="s1-btn btn">Get Now</button>
         </div>
-        <button class="s1-btn btn">Get Now</button>
+      </div>
+
+      <div class="section2">
+        <h2 class="section2-title">Welcome To Blossom. Expense Tracker</h2>
+
+        <p class="section2-par">
+          Track where most of your money are getting spent. Sign Up to create a
+          free account
+        </p>
+
+        <div class="phone-img"></div>
+        <div class="desk-img"></div>
       </div>
     </div>
   </body>
