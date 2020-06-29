@@ -116,6 +116,10 @@ a {
   color: #ffffff;
 }
 
+.section2 {
+  height: 644px;
+}
+
 .section2-title {
   font-weight: 600;
   font-size: 36px;
@@ -157,6 +161,48 @@ a {
   top: 1110px;
 
   background: #c4c4c4;
+}
+
+.section3-container {
+  width: 90%;
+  height: 1233px;
+  margin: 0 auto;
+  margin-top: 35px;
+
+  background: #fffafa;
+}
+
+.chart-image {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 15px;
+}
+
+.chart-title {
+  width: 100%;
+  text-align: center;
+
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 25px;
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.chart-par {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 25px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+
+  color: #000000;
 }
 @media screen and (min-width: 850px) {
   .top-mobile-hero {
