@@ -176,7 +176,7 @@ a {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  margin-top: 15px;
+  margin-top: 35px;
 }
 
 .chart-title {
@@ -194,6 +194,72 @@ a {
 }
 
 .chart-par {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 25px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.money-image {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 35px;
+}
+
+.money-title {
+  width: 100%;
+  text-align: center;
+
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 25px;
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.money-par {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 25px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.question-image {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 35px;
+}
+
+.question-title {
+  width: 100%;
+  text-align: center;
+
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 25px;
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.question-par {
   width: 95%;
   margin: 0 auto;
   margin-top: 25px;
