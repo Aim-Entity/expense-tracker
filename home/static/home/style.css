@@ -525,31 +525,35 @@ a {
   }
 
   .section3-container {
-    width: 90%;
-    height: 1233px;
-    margin: 0 auto;
+    width: 100%;
+    height: 480px;
+    margin: 0 0;
     margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
     background: #fffafa;
   }
 
   .chart-image {
     position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 20%;
+    transform: translateX(-80%);
     margin-top: 35px;
   }
 
   .chart-title {
     width: 100%;
-    text-align: center;
+    text-align: left;
 
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
     margin-top: 25px;
+    margin-left: 12px;
 
-    text-align: center;
+    text-align: left;
 
     color: #000000;
   }
@@ -561,28 +565,29 @@ a {
     font-weight: 300;
     font-size: 24px;
     line-height: 36px;
-    text-align: center;
+    text-align: left;
 
     color: rgba(0, 0, 0, 0.6);
   }
 
   .money-image {
     position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 25%;
+    transform: translateX(-80%);
     margin-top: 35px;
   }
 
   .money-title {
     width: 100%;
-    text-align: center;
+    text-align: left;
 
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
     margin-top: 25px;
+    margin-left: 12px;
 
-    text-align: center;
+    text-align: left;
 
     color: #000000;
   }
@@ -594,28 +599,29 @@ a {
     font-weight: 300;
     font-size: 24px;
     line-height: 36px;
-    text-align: center;
+    text-align: left;
 
     color: rgba(0, 0, 0, 0.6);
   }
 
   .question-image {
     position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 15%;
+    transform: translateX(-90%);
     margin-top: 35px;
   }
 
   .question-title {
     width: 100%;
-    text-align: center;
+    text-align: left;
 
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
     margin-top: 25px;
+    margin-left: 12px;
 
-    text-align: center;
+    text-align: left;
 
     color: #000000;
   }
@@ -627,7 +633,7 @@ a {
     font-weight: 300;
     font-size: 24px;
     line-height: 36px;
-    text-align: center;
+    text-align: left;
 
     color: rgba(0, 0, 0, 0.6);
   }
