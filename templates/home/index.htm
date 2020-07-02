@@ -66,15 +66,19 @@
       </div>
 
       <div class="section2">
-        <h2 class="section2-title">Welcome To Blossom. Expense Tracker</h2>
+        <div class="section2-info">
+          <h2 class="section2-title">Welcome To Blossom. An Expense Tracker</h2>
 
-        <p class="section2-par">
-          Track where most of your money are getting spent. Sign Up to create a
-          free account
-        </p>
+          <p class="section2-par">
+            Track where most of your money are getting spent. Sign Up to create
+            a free account
+          </p>
+        </div>
 
-        <div class="phone-img"></div>
-        <div class="desk-img"></div>
+        <div class="section2-views">
+          <div class="desk-img"></div>
+          <div class="phone-img"></div>
+        </div>
       </div>
 
       <div class="section3">
@@ -162,7 +166,7 @@
         <div class="section5-ind">
           <img
             src="{% static 'home/imgs/play.svg' %}"
-            alt="Videos"
+            alt="play"
             class="ind-img"
           />
           <p class="ind-par">
@@ -173,7 +177,7 @@
         <div class="section5-ind">
           <img
             src="{% static 'home/imgs/calc.svg' %}"
-            alt="Videos"
+            alt="calc"
             class="ind-img"
           />
           <p class="ind-par">
@@ -184,7 +188,7 @@
         <div class="section5-ind">
           <img
             src="{% static 'home/imgs/graph.svg' %}"
-            alt="Videos"
+            alt="graph"
             class="ind-img"
           />
           <p class="ind-par">
@@ -195,13 +199,25 @@
         <div class="section5-ind">
           <img
             src="{% static 'home/imgs/card.svg' %}"
-            alt="Videos"
+            alt="card"
             class="ind-img"
           />
           <p class="ind-par">
             Accepts Every Card
           </p>
         </div>
+      </div>
+
+      <div class="section6">
+        <h2 class="section6-title">
+          Why Track Your Money?
+        </h2>
+
+        <img
+          src="{% static 'home/imgs/card.jpg' %}"
+          alt="Card"
+          class="section6-img"
+        />
       </div>
     </div>
   </body>
